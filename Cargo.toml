@@ -1,0 +1,11 @@
+[package]
+name = "oxide-template"
+version = "0.0.0"
+edition = "2021"
+
+[dependencies]
+oxide-engine = { version = "0.0.3", git = "https://github.com/Dromader2137/oxide-engine" }
+winit = { version = "0.29.15", features = ["rwh_05"] }
+uuid = { version = "1.8.0", features = ["v4", "fast-rng", "serde"] }
+log = "0.4.21"
+env_logger = "0.11.3"
